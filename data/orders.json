@@ -3,46 +3,24 @@
     "order_id": "1001",
     "customer": "Alice Smith",
     "city": "New York",
-    "status": "Delayed",
-    "weather": "Rain",
-    "severity": "Moderate",
-    "priority": "Normal",
-    "decision_reason": "Observed weather condition 'Rain' in New York with severity classified as 'Moderate'. Based on operational thresholds, delivery disruption risk is elevated.",
-    "decision_details": "Moderate disruption detected. Customer notification initiated with priority 'Normal'.",
-    "action_taken": "Customer Notified",
-    "message": "Hi Alice Smith, your order (#1001) to New York is delayed due to rain. We appreciate your patience."
+    "status": "Pending"
   },
   {
     "order_id": "1002",
     "customer": "Bob Jones",
     "city": "Mumbai",
-    "status": "Delayed",
-    "weather": "Thunderstorm",
-    "severity": "High",
-    "priority": "High",
-    "decision_reason": "Observed weather condition 'Thunderstorm' in Mumbai with severity classified as 'High'. Based on operational thresholds, delivery disruption risk is elevated.",
-    "decision_details": "High-risk disruption detected. Escalation triggered with priority 'High'.",
-    "action_taken": "Escalated to Operations",
-    "message": "Hi Bob Jones, your order (#1002) to Mumbai is delayed due to thunderstorm. We appreciate your patience."
+    "status": "Pending"
   },
   {
     "order_id": "1003",
     "customer": "Charlie Green",
     "city": "London",
-    "status": "On-Time",
-    "weather": "Clear",
-    "severity": "Low",
-    "priority": "Low",
-    "decision_reason": "Observed weather condition 'Clear' in London with severity classified as 'Low'. Based on operational thresholds, no delivery disruption is expected.",
-    "decision_details": "No action required. System will continue monitoring conditions.",
-    "action_taken": "No Action Required"
+    "status": "Pending"
   },
   {
     "order_id": "1004",
     "customer": "InvalidCity123",
     "city": "InvalidCity123",
-    "status": "Error",
-    "error": "INVALID_CITY:InvalidCity123",
-    "action_taken": "None"
+    "status": "Pending"
   }
-]
+]git a
